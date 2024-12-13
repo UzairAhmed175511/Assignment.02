@@ -22,7 +22,6 @@ void main() {
     28,
     58,
   ];
-
   numbers.sort();
   print('Maximum value of the list is :${numbers.last}');
 }
