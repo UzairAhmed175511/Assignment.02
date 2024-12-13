@@ -4,6 +4,11 @@ void main() {
   //     currency and language to it. by using any country key print all the value of Capital & Currency.
 
   Map world = {
+    'Pakistan': {
+      'capitalCity': 'Islamabad',
+      'currency': 'PKR',
+      'language': 'urdu'
+    },
     'USA': {
       'capitalCity': 'Washington, D.C.',
       'currency': 'USD',
@@ -23,11 +28,6 @@ void main() {
       'capitalCity': 'New Delhi',
       'currency': 'INR',
       'language': 'Hindi, English'
-    },
-    'Pakistan': {
-      'capitalCity': 'Islamabad',
-      'currency': 'PKR',
-      'language': 'urdu'
     }
   };
   var country_key = 'Pakistan';
