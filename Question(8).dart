@@ -8,6 +8,7 @@ void main() {
                                                       {'name': 'Tom', 'eligible': false},
                                                     ];
  */
+
   List<Map> usersEligibility = [
     {'name': 'John', 'eligible': true},
     {'name': 'Alice', 'eligible': false},
