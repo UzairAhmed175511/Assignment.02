@@ -28,6 +28,7 @@ void main() {
     28,
     58,
   ];
+
   List<int> number = [];
   numbers.forEach((element) {
     if (!number.contains(element)) {
