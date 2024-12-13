@@ -6,7 +6,6 @@ void main() {
   List<int> elements = [1, 2, 3, 4, 5, 1, 3, 6, 7, 4, 8];
   List<int> without_duplicate = [];
   List<int> duplicate_elements = [];
-
   if (without_duplicate.contains(elements[0])) {
     duplicate_elements.add(elements[0]);
   } else {
